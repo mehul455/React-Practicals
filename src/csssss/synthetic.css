@@ -1,0 +1,50 @@
+:root{
+    --color__primary : #03a84e ;
+    --color__secondary : rgb(187, 184, 184);
+}
+.main{
+    background:red;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height:100vh;
+}
+.main__right{
+    background:var(--color__primary); 
+}
+.main__left{
+    background:var(--color__secondary);
+    width:100%;
+    display:grid;
+    place-content:center;
+}
+form{
+    width:400px;  
+}
+input{
+    width:calc(100% - 23px);
+    padding:10px;
+    display:block;
+    margin:auto;
+    margin:10px 0;
+    border:None;
+    outline:none;  
+}
+button{
+    display:block;
+    outline:none;
+    border:none;
+    background:var(--color__primary);
+    padding:.8rem;
+    font-size:.9rem;
+    margin-top:10px;
+    width:calc(100% - 3px);
+    cursor:pointer;
+}
+@media (max-width: 800px){
+    .main{
+        grid-template-columns:1fr;
+    }
+    .main__right{
+        display:none;
+    }
+}

@@ -1,0 +1,17 @@
+/* .cardcontainer{
+  display: flex;
+  justify-content:space-between;
+} */
+
+
+.bgcolor{
+  background-color:rgb(0, 0, 129);
+
+}
+
+.chartt{
+  background-color:rgb(0, 0, 129);
+  border-radius: 15px;
+  color: white;
+
+}

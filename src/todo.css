@@ -1,0 +1,43 @@
+ .item{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+p{
+    margin: 0;
+}
+
+.wrapper{
+    background-color: rgb(255, 153, 0);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+}
+
+.App{
+    position: relative;
+    left:30%;
+    margin-top: 30px;
+}
+.center{
+
+   position: relative;
+   top:30px;
+   
+}
+
+.fixed{
+    position:fixed;
+    right: 360px;
+    display: flex;
+    justify-content:space-between;
+}
+input{
+    background-color:black;
+    color:white;
+   
+}
